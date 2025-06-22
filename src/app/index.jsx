@@ -6,7 +6,7 @@ const App = () => {
     <Card
       name="John Doe"
       about="Full-stack developer with passion for React and Node.js"
-      imageUrl="https://example.com/profile-image.jpg"
+      imageUrl="https://images.pexels.com/photos/29524087/pexels-photo-29524087.jpeg"
     />
   );
 };
