@@ -1,14 +1,16 @@
 import React from "react";
-import Card from "../components/Card";
+import NameTag from "./NameTag";
 
 const App = () => {
-  return (
-    <Card
-      name="John Doe"
-      about="Full-stack developer with passion for React and Node.js"
-      imageUrl="https://images.pexels.com/photos/29524087/pexels-photo-29524087.jpeg"
+  return <div className="">
+
+    <NameTag 
+    name={"name"}
+    position={"position"}
+    description={"description"}
+    email={"email"}
     />
-  );
+  </div>;
 };
 
 export default App;
